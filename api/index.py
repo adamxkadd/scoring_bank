@@ -16,4 +16,4 @@ def test():
 	# my_data = {'text' : 'texte', 'int' : 123, 'timestamp' : time.time()}
 	# my_data_json = json.dumps(my_data)
 	my_data = 1234
-	return my_data	
+	return str(my_data)	
