@@ -14,4 +14,4 @@ def about():
 def test():
 	my_data = {'text' : 'texte', 'int' : 123, 'timestamp' : time.time()}
 	my_data_json = json.dumps(my_data)
-	return my_data_json	
+	return 'my_data_json'	
