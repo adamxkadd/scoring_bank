@@ -10,7 +10,8 @@ def home():
 def about():
     return 'About'
 
-@app.route('/test', methods =['GET', 'POST'] )
+# @app.route('/test', methods =['GET', 'POST'] )
+@app.route('/test')
 def test():
 	my_data = {'text' : 'texte', 'int' : 123, 'timestamp' : time.time()}
 	# my_data_json = json.dumps(my_data)
